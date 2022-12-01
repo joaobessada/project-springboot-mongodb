@@ -40,11 +40,11 @@ public class User implements Serializable {
 		this.name = name;
 	}
 
-	public String getPassword() {
+	public String getEmail() {
 		return email;
 	}
 
-	public void setPassword(String email) {
+	public void setEmail(String email) {
 		this.email = email;
 	}
 
